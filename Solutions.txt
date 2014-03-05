@@ -1,0 +1,28 @@
+Solutions
+
+------------------------------
+Activity 1 
+------------------------------
+
+1) Connect to Super Store & Coffe Chain data
+2) Add the relevant fields to your view (in this case, Customer States and Sales)
+3) Switch the Data Window to Coffee Chain and add Sales to the view
+4) Since the fields are not named the same, Tableau will not guess, so we need to define the relationship. Select Data from the toolbar and choose “Relationship”. From here, define that you want to relate Customer State from Superstore to State from Coffee.
+5) You are now able to look at Sales by State from both the coffee and the Retail chain in the same view 
+
+
+------------------------------
+Activity 2
+------------------------------
+1) Connect to Sample Superstore dataset
+2) Create 2 calculated fields for 2010 and 2011
+"2010 Sales" IF YEAR([Order Date]) = 2010 THEN [Sales] END
+"2011 Sales" IF YEAR([Order Date]) = 2011 THEN [Sales] END
+
+3) Drag "2010 Sales" to the Rows shelf and Category to columns
+4) Drag "2011 Sales" to the axis for 2011 Sales
+   NOTE: this will engage Measure Names and Measure Value
+5) Drag measure Namess from the Column shelf to the Color Shelf
+6) Ctrl-click Measure Names to drag a Copy to the size shelf
+7) From analysis menu, choose Stack Marks > Off
+

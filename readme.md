@@ -1,4 +1,4 @@
-#INFO 247 Lab 02: Javascript, jQuery, & Highcharts
+#INFO 247 Lab 06: Data Wrangling and Tableau
 
 ##Instructions
 
